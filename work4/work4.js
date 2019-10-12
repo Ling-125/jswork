@@ -1,4 +1,5 @@
 document.write("<p>金字塔</p>")
+console.log("123");
 let level = prompt('请设置金字塔的层数')
 level = parseFloat(level)&&Number(level)
 if (isNaN(level)){
@@ -6,8 +7,12 @@ if (isNaN(level)){
 }
 for(let i=1;i<=level;++i){
     let blank = level - i;
-    for(let k=0;k,blank;++j){
+    for(let k=0;k<blank;++k){
         document.write('&nbsp;');
+    }
+    let star = i * 2 - 1
+    for(let j=0;j<star;++j){
+        document.write("*");
     }
     document.write("<br>")
 }
