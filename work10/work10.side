@@ -84,11 +84,11 @@
   }, {
     "id": "a82f33dc-ec5c-4698-8945-a77656dc8546",
     "name": "猴子选大王",
-    "commands": [{
+    "commands": [{  
       "id": "c5270481-7ad8-49f7-8c8e-da4060589035",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/",  
       "targets": [],
       "value": ""
     }, {
