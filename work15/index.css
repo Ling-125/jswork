@@ -58,6 +58,7 @@
     height: 16px;
     line-height: 16px;
     color: #FFF;
+    background-color: #BDBDBD;
     border: 0;
     cursor: pointer;
     border-radius: 2px;
@@ -67,6 +68,10 @@
 
 .cart-reduce:hover,
 .cart-add:hover {
+    background-color: #FF9900;
+}
+
+.cart-num {
     margin: 5px;
     width: 35px;
     text-align: center;
